@@ -18,7 +18,7 @@ If you're using Composer to manage dependencies, you can include the following
 in your `composer.json` file:
 
     "require": {
-        "Uuid62/Uuid62": "dev-master"
+        "lucasmichot/uuid62": "dev-master"
     }
 
 Then, after running `composer update` or `php composer.phar update`, you can
@@ -43,12 +43,11 @@ Determines if the provided email is unique (dotted or aliased).
 ```php
 $uuid = Uuid62::get('lucas@semalead.com');
 echo $uuid;
-// 'YIbZFzz9EOi6Oc07'
+// '6cSgR9eY7KkMkgA84Gw007'
 
-// You can also pad the string with 0 on its left.
-$paddedUuid = Uuid62::get('lucas@semalead.com', true);
-echo $Uuid62->isUnique();
-// '0YIbZFzz9EOi6Oc07'
+$uuid = Uuid62::get(array('mail' => 'lucas@semalead.com'));
+echo $uuid;
+// '54TRNAo7kI4KqO2ooQC007'
 ```
 
 ## Todos
