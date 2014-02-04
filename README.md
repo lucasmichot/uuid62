@@ -25,7 +25,7 @@ Then, after running `composer update` or `php composer.phar update`, you can
 load the class using Composer's autoloading:
 
 ```php
-require 'vendor/autoload.php';
+require 'vendor/autoload.php'; 
 ```
 
 Otherwise, you can simply require the file directly:
