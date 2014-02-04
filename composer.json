@@ -1,0 +1,31 @@
+{
+    "name": "lucasmichot/uuid62",
+    "type": "library",
+    "description": "generate a unique Uuid from a value, using base 62.",
+    "keywords": [
+        "uuid",
+        "base",
+        "62",
+        "identifier"
+    ],
+    "homepage": "https://github.com/lucasmichot/uuid62",
+    "authors": [
+        {
+            "name": "Lucas Michot",
+            "email": "lucas@semalead.coom",
+            "homepage": "http://semalead.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Uuid62": "src"
+        }
+    },
+    "license": "MIT"
+}
