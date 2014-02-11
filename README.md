@@ -38,7 +38,7 @@ require_once 'path/to/Uuid62/src/Uuid62/Uuid62.php';
 
 #### get()
 
-Determines if the provided email is unique (dotted or aliased).
+Create a unique Base62 ID from a string, an object or an array.
 
 ```php
 $uuid = Uuid62::get('lucas@semalead.com');
